@@ -6,7 +6,7 @@ Rohit Ranjan (2001CS56)
 
 ## Question 1
 
-Q1. Write a computer program to deduce the total number of atoms and surface atoms for different shells of cuboctahedral/spherical shape. Plot % of atoms in bulk/surface versus particle size. The user should get ideas to generate the thickness or size of nanoparticles for a particular application (optical/electrical/magnetic/strength).
+Write a computer program to deduce the total number of atoms and surface atoms for different shells of cuboctahedral/spherical shape. Plot % of atoms in bulk/surface versus particle size. The user should get ideas to generate the thickness or size of nanoparticles for a particular application (optical/electrical/magnetic/strength).
 
 ## How to run locally
 

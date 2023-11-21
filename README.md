@@ -10,7 +10,7 @@ Write a computer program to deduce the total number of atoms and surface atoms f
 
 ## How to run locally
 
-Download the repository and move to that directory. Run the following commands:
+Download the [repository](https://github.com/rohitranjan-rr10/PH401) and move to that directory. Run the following commands:
 ```
 pip install -r requirements.txt 
 streamlit run index.py

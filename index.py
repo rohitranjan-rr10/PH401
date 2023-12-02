@@ -41,24 +41,24 @@ chosen_shape = st.radio("Select nanoparticle shape:",('Cuboctahedral', 'Spherica
 
 # Display success message based on the selected nanoparticle shape
 if (chosen_shape == 'Cuboctahedral'):
-    st.success("Cuboctahedral")
+    st.success("You selected: Cuboctahedral")
 else:
-    st.success("Spherical")
+    st.success("You selected: Spherical")
 
 # Dropdown to select an application for the nanoparticle
 chosen_application = st.selectbox("Select an application:",('Optical', 'Electrical', 'Magnetic', 'Strength', 'None'), 4)
 
 # Display success message based on the selected application
 if (chosen_application == 'Optical'):
-    st.error("Optical")
+    st.error("You selected: Optical")
 elif (chosen_application == 'Electrical'):
-	st.error("Electrical")
+	st.error("You selected: Electrical")
 elif (chosen_application == 'Magnetic'):
-	st.error("Magnetic")
+	st.error("You selected: Magnetic")
 elif (chosen_application == 'Strength'):
-	st.error("Strength")
+	st.error("You selected: Strength")
 else:
-    st.error("None")
+    st.error("You selected: None")
 
 # Set size limits based on the selected application
 global max_size, min_size
